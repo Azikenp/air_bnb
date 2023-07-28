@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Main from './components/main';
+import Hero from './components/Hero';
 import './App.css';
  
 export default function App() {
   return (
     <div>
       <Navbar />
-      <Main />
+      <Hero />
     </div>
   )
 }
