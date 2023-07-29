@@ -1,11 +1,13 @@
 import React from "react";
-// import Kate from '../images/katie-zaferes.png';
+import Kate from '../images/katie-zaferes.png';
+// import {*} from '../images'
 import Star from '../images/star.png';
 
 export default function Main(props) {
     return(
         <div className="card">
-            <img src = {`../images/${props.img}`} className="card--image" alt="kate" />
+            <div className="card--badge">SOLD OUT</div>
+            <img src= {props.img} className="card--image" alt="image of participants"/>
             <div className="card--stats">
                 <img src={Star} className="card--star" alt="star" />
                 <span className="grey">{props.ratings}</span>
